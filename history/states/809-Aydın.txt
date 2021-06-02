@@ -1,0 +1,21 @@
+state={
+	id=809
+	name="STATE_809" #Aydın
+
+	history={
+		owner = BRU
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = BRU
+		add_core_of = TUR
+	}
+
+	provinces={
+		10038 9929
+	}
+	manpower = 365490
+	state_category = rural
+}

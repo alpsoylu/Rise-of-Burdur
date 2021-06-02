@@ -1,0 +1,4 @@
+BRU	= "countries/Burdur.txt"
+EBA	= "countries/Ebabil Revolt.txt"
+ULT	= "countries/Ultroll.txt"
+FEM	= "countries/Feminist Revolt.txt"

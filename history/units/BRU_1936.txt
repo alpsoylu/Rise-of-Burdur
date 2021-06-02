@@ -1,0 +1,170 @@
+﻿division_template = {
+	name = "Milli Savunma"  			# Milli Savunma
+
+	division_names_group = BRU_INF_SAV_01
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	##### Burduri Ordusu #####
+	division = {
+		#name = "1.Burdur Savunma Birliği"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10038
+		division_template = "Milli Savunma" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		#name = "2.Burdur Savunma Birliği"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9929
+		division_template = "Milli Savunma" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		#name = "3.Burdur Savunma Birliği"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11917
+		division_template = "Milli Savunma" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	
+	division = {
+		#name = "4.Burdur Savunma Birliği"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 12013
+		division_template = "Milli Savunma" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		#name = "5.Burdur Savunma Birliği"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 12016
+		division_template = "Milli Savunma" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		#name = "6.Burdur Savunma Birliği"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 12016
+		division_template = "Milli Savunma" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		#name = "7.Burdur Savunma Birliği"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 1122
+		division_template = "Milli Savunma" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		#name = "8.Burdur Savunma Birliği"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 4127
+		division_template = "Milli Savunma" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		#name = "9.Burdur Savunma Birliği"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 4008
+		division_template = "Milli Savunma" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		#name = "10.Burdur Savunma Birliği"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 1005
+		division_template = "Milli Savunma" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+}
+
+
+### Air Wings ###
+air_wings = {
+	##### Burduri Hava Kuvvetleri #####
+}
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BRU"
+		}
+		requested_factories = 1
+		progress = 0.43
+		efficiency = 100
+	}
+}

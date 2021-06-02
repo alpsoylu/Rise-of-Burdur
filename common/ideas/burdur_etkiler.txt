@@ -1,0 +1,506 @@
+ideas = {
+country {
+##PARÇALI AY GRUBU##
+		
+		BRU_krallık_etki_yok = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_krallık_etki_yok
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_krallık_yok_tt
+			}
+		}
+		
+		BRU_krallık_etki_az = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture =BRU_krallık_etki_az
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_krallık_az_tt
+			}
+		}
+		
+		
+		
+		BRU_krallık_etki_orta = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_krallık_etki_orta
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_krallık_orta_tt
+			}
+		}
+		
+		
+		BRU_krallık_etki_cok = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_krallık_etki_cok
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_krallık_cok_tt
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		#FAŞİST
+		
+		
+		BRU_fasist_etki_yok = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_fasist_etki_yok
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_fasist_yok_tt
+			}
+		}
+		
+		BRU_fasist_etki_az = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_fasist_etki_az
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_fasist_az_tt
+			}
+		}
+		
+		
+		
+		BRU_fasist_etki_orta = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_fasist_etki_orta
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_fasist_orta_tt
+			}
+		}
+		
+		
+		BRU_fasist_etki_cok = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_fasist_etki_cok
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_fasist_cok_tt
+			}
+		}
+		
+		
+		
+		
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		#NAZİ
+		
+		
+		BRU_nazi_etki_yok = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_nazi_etki_yok
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_nazi_yok_tt
+			}
+		}
+		
+		BRU_nazi_etki_az = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_nazi_etki_az
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_nazi_az_tt
+			}
+		}
+		
+		
+		
+		BRU_nazi_etki_orta = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_nazi_etki_orta
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_nazi_orta_tt
+			}
+		}
+		
+		
+		BRU_nazi_etki_cok = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_nazi_etki_cok
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_nazi_cok_tt
+			}
+		}
+			
+		
+		
+		
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		#SOSYALİST
+		
+		
+		BRU_sos_etki_yok = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_sos_etki_yok
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_sos_yok_tt
+	if {
+		limit = { NOT { has_government = communism } }			
+			stability_factor = 0.1
+		}
+		
+	if {
+		limit = { has_government = communism }			
+			stability_factor = -0.1
+		}
+			}
+		}
+		
+		BRU_sos_etki_az = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_sos_etki_yok
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_sos_az_tt
+	if {
+		limit = { NOT { has_government = communism } }			
+			stability_factor = 0.05
+		}
+		
+	if {
+		limit = { has_government = communism }			
+			stability_factor = -0.05
+		}
+			}
+		}
+		
+		
+		
+		BRU_sos_etki_orta = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_sos_etki_yok
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_sos_orta_tt
+	if {
+		limit = { NOT { has_government = communism } }			
+			stability_factor = -0.05
+		}
+		
+	if {
+		limit = { has_government = communism }			
+			stability_factor = 0.05
+		}
+			}
+		}
+		
+		
+		BRU_sos_etki_cok = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_sos_etki_yok
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_effect_tooltip = BRU_sos_cok_tt
+			}
+		}
+			
+		
+		
+		
+		
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+		#FEMİNİST
+		
+		
+		BRU_fem_etki_yok = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_feminist_etki_yok
+				
+			removal_cost = -1
+				
+			modifier = {
+stability_factor = 0.1
+			}
+		}
+		
+		BRU_fem_etki_az = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_feminist_etki_az
+				
+			removal_cost = -1
+				
+			modifier = {
+stability_factor = 0.05
+			}
+		}
+		
+		
+		
+		BRU_fem_etki_orta = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_feminist_etki_orta
+				
+			removal_cost = -1
+				
+			modifier = {
+stability_factor = -0.05
+			}
+		}
+		
+		
+		BRU_fem_etki_cok = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_feminist_etki_cok
+				
+			removal_cost = -1
+				
+			modifier = {
+stability_factor = -0.1
+			}
+		}
+		}
+}

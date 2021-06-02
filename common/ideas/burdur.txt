@@ -1,0 +1,705 @@
+ideas = {
+
+	country = { 
+
+		BRU_burdurland_i = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_burdurland_i
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.15
+				research_speed_factor = -0.15
+			}
+		}
+		
+		BRU_burdurland_ii = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_burdurland_ii
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.1
+				research_speed_factor = -0.1
+			}
+		}
+		
+		BRU_burdurban = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_burdurban
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.05
+				research_speed_factor = -0.05
+			}
+		}
+		
+		BRU_burdurland_positive = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = BRU_burdurland_positive
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.2
+				research_speed_factor = 0.2
+			}
+		}
+		
+		BRU_long_bans = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = GFX_idea_bru_long_bans
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		
+		BRU_heil_porcay_idea = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = GFX_idea_bru_heil_porcay_idea
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.2
+				army_org = 5
+				planning_speed = 0.2
+				army_speed_factor = 0.2
+				army_attack_factor = 0.4
+				army_defence_factor = 0.3
+				attrition = -0.3
+			}
+		}
+		
+		BRU_fascist_council = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_council
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.1
+				army_org = 1
+				planning_speed = 0.1
+				army_speed_factor = 0.1
+				army_attack_factor = 0.2
+				army_defence_factor = 0.2
+				attrition = -0.3
+			}
+		}
+		
+		BRU_contacted_italy = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_contact_italia_icon
+				
+			removal_cost = -1
+				
+			modifier = {
+				army_org = 2
+				planning_speed = 0.2
+				army_speed_factor = 0.1
+				army_attack_factor = 0.2
+				army_defence_factor = 0.2
+			}
+		}
+		
+		BRU_burduri = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_burduri
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+		
+		BRU_burduri_expansionism = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_burduri
+				
+			removal_cost = -1
+				
+			modifier = {
+				war_support_factor = 0.1
+			}
+		}
+		
+		BRU_uatang_icin_idea = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_burduri
+				
+			removal_cost = -1
+				
+			modifier = {		
+			production_factory_max_efficiency_factor = 0.2 		
+			production_factory_efficiency_gain_factor = 0.2
+			consumer_goods_factor = -0.1			
+			production_speed_buildings_factor = 0.25		
+			repair_speed_arms_factory_factor = 0.2
+			}
+		}
+		
+		BRU_parcay_icin_idea = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_burduri
+				
+			removal_cost = -1
+				
+			modifier = {
+			army_attack_factor = 0.2
+			army_defence_factor = 0.1
+			army_speed_factor = 0.1
+			army_morale_factor = 0.5
+			army_org_factor = 0.2
+			attrition = -0.3
+			}
+		}
+		
+		BRU_ang_icin_idea = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_burduri
+				
+			removal_cost = -1
+				
+			modifier = {
+			stability_weekly = 0.01			
+			stability_factor = 0.2
+			}
+		}
+		
+		BRU_burduri_kulturu = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_burduri
+				
+			removal_cost = -1
+				
+			modifier = {		
+			stability_factor = 0.2
+			}
+		}
+		
+		BRU_burduri_yatırımcılar = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_burduri
+				
+			removal_cost = -1
+				
+			modifier = {		
+			consumer_goods_factor = -0.1
+			}
+		}
+		
+		BRU_burduri_parliement = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_burduri_parliement
+				
+			removal_cost = -1
+				
+			modifier = {		
+			stability_factor = -0.05
+			}
+		}
+		
+		BRU_savunma_ordusu = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_savunma_ordusu
+				
+			removal_cost = -1
+				
+			modifier = {		
+			army_attack_factor = -0.8
+			army_defence_factor = 0.1
+			max_dig_in_factor = 0.1
+			supply_consumption_factor = -0.1
+			experience_gain_army_factor = 0
+			}
+		}
+		
+		BRU_savunma_ordusu_i = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_savunma_ordusu
+				
+			removal_cost = -1
+				
+			modifier = {		
+			army_attack_factor = -0.7
+			army_defence_factor = 0.08
+			max_dig_in_factor = 0.08
+			supply_consumption_factor = -0.08
+			experience_gain_army_factor = 0
+			}
+		}
+		
+		BRU_savunma_ordusu_ii = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_savunma_ordusu
+				
+			removal_cost = -1
+				
+			modifier = {		
+			army_attack_factor = -0.7
+			army_defence_factor = 0.08
+			max_dig_in_factor = 0.08
+			supply_consumption_factor = -0.08
+			experience_gain_army_factor = 0
+			}
+		}
+		
+		BRU_savunma_ordusu_iii = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_savunma_ordusu
+				
+			removal_cost = -1
+				
+			modifier = {		
+			army_attack_factor = -0.6
+			army_defence_factor = 0.06
+			max_dig_in_factor = 0.06
+			supply_consumption_factor = -0.06
+			experience_gain_army_factor = 0
+			}
+		}
+		
+		BRU_savunma_ordusu_iv = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_savunma_ordusu
+				
+			removal_cost = -1
+				
+			modifier = {		
+			army_attack_factor = -0.4
+			army_defence_factor = 0.04
+			max_dig_in_factor = 0.04
+			supply_consumption_factor = -0.04
+			experience_gain_army_factor = 0
+			}
+		}
+		
+		BRU_savunma_ordusu_v = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_savunma_ordusu
+				
+			removal_cost = -1
+				
+			modifier = {		
+			army_attack_factor = -0.2
+			army_defence_factor = 0.02
+			max_dig_in_factor = 0.02
+			supply_consumption_factor = -0.02
+			experience_gain_army_factor = -100
+			}
+		}
+		
+		BRU_burdur_ordusu = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_savunma_ordusu
+				
+			removal_cost = -1
+				
+			modifier = {		
+			army_attack_factor = 0.2			
+			army_speed_factor = 0.2
+			army_morale_factor = 0.2
+			army_org_factor = 0.05
+			experience_gain_army_factor = 0.5
+			}
+		}
+		
+		BRU_burdur_buyuk_plan = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_burduri_parliement
+				
+			removal_cost = -1
+				
+			modifier = {
+			production_speed_arms_factory_factor = 0.15
+			production_speed_industrial_complex_factor = 0.25
+			consumer_goods_factor = -0.1
+			production_speed_infrastructure_factor = 0.5
+			}
+		}
+		BRU_gelecegin_sehri = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bru_burduri_parliement
+				
+			removal_cost = -1
+				
+			modifier = {
+			production_speed_arms_factory_factor = 0.25
+			production_speed_industrial_complex_factor = 0.35
+			consumer_goods_factor = -0.2
+			production_speed_infrastructure_factor = 0.8
+			}
+		}
+		
+		BRU_bilim_kurulu = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_research_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+			research_speed_factor = 0.25
+			}
+		}
+		
+		BRU_bilim_kurulu_ii = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_research_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+			research_speed_factor = 0.5
+			}
+		}
+		
+		BRU_bilim_kurulu_iii = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_research_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+			research_speed_factor = 0.5
+			production_factory_efficiency_gain_factor = 0.25
+			production_factory_max_efficiency_factor = 0.25
+			production_factory_start_efficiency_factor = 0.25
+			}
+		}
+		
+		BRU_bilim_kurulu_iv = { 
+
+			allowed = {
+				original_tag = BRU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_research_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+			research_speed_factor = 0.5
+			production_factory_efficiency_gain_factor = 0.5
+			production_factory_max_efficiency_factor = 0.5
+			production_factory_start_efficiency_factor = 0.5
+			}
+		}
+		
+		
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+
+	
+	political_advisor = {
+
+		BRU_huseyin_abi = {
+
+			picture = generic_political_advisor_europe_5
+
+			allowed = {
+				original_tag = BRU
+			}
+			
+			traits = { captain_of_industry }
+		}
+		
+		BRU_ebabil = {
+
+			picture = generic_political_advisor_europe_5
+
+			allowed = {
+				original_tag = BRU
+			}
+			
+			traits = { popular_figurehead2 }
+		}
+		
+		BRU_red_head_feminist = {
+
+			picture = generic_political_advisor_europe_5
+
+			allowed = {
+				original_tag = BRU
+			}
+			
+			traits = { feminist_orospu_cocu }
+		}
+		
+		BRU_ultroll = {
+
+			picture = generic_political_advisor_europe_5
+
+			allowed = {
+				original_tag = BRU
+			}
+			
+			traits = { ultroll_trait }
+		}
+		
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+}

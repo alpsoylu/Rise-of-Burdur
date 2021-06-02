@@ -1,0 +1,7 @@
+mimar_erkan_dynamic = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_dynamic_mimar_erkan
+	
+	custom_modifier_tooltip = BRU_mimar_erkan_tt
+}
