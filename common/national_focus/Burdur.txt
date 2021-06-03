@@ -130,7 +130,7 @@ completion_reward {
 	focus = {
 		id = BRU_establish_martial_law_in_burdurland_monarchy
 		icon = focus_porcay_gehass
-		cost = 2,00
+		cost = 5,00
 		prerequisite = {
 			focus = BRU_ang_icin
 		}
@@ -149,7 +149,7 @@ completion_reward {
 	focus = {
 		id = BRU_establish_burdurban_monarchy
 		icon = focus_porcay_thanos
-		cost = 2,00
+		cost = 5,00
 		prerequisite = {
 			focus = BRU_establish_martial_law_in_burdurland_monarchy
 		}
@@ -168,7 +168,7 @@ completion_reward {
 	focus = {
 		id = BRU_burdurland_problem_solved_monarchy
 		icon = focus_porcay_thanos
-		cost = 2,00
+		cost = 5,00
 		prerequisite = {
 			focus = BRU_establish_burdurban_monarchy
 		}
@@ -186,7 +186,7 @@ completion_reward {
 	focus = {
 		id = BRU_burduri_nationalism
 		icon = GFX_focus_porcay_milliyetcilik
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = dreams_of_a_greater_burdur
 		}
@@ -209,7 +209,7 @@ completion_reward {
 	focus = {
 		id = BRU_burduri_fascism
 		icon = focus_porcay_fascism
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_burduri_nationalism
 		}
@@ -242,7 +242,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_contact_italy
 		icon = GFX_focus_befriend_italy
-		cost = 2,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_burduri_fascism
 		}
@@ -256,7 +256,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_burduri_nazism
 		icon = focus_porcay_nazism
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_burduri_nationalism
 		}
@@ -289,7 +289,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_burduri_dili
 		icon = focus_porcay_burduri
-		cost = 2,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_burduri_fascism
 			focus = BRU_burduri_nazism
@@ -304,7 +304,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_establish_martial_law_in_burdurland
 		icon = focus_porcay_gehass
-		cost = 2,00
+		cost = 5,00
 		prerequisite = {
 			focus = BRU_burduri_dili
 		}
@@ -322,7 +322,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_establish_burdurban
 		icon = focus_porcay_thanos
-		cost = 2,00
+		cost = 5,00
 		prerequisite = {
 			focus = BRU_establish_martial_law_in_burdurland
 		}
@@ -341,7 +341,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_burdurland_problem_solved
 		icon = focus_porcay_thanos
-		cost = 2,00
+		cost = 5,00
 		prerequisite = {
 			focus = BRU_establish_burdurban
 		}
@@ -434,7 +434,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_izmir_refarendumu
 		icon = GFX_focus_generic_treaty
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_balkanlardan_orta_doguya
 		}
@@ -448,7 +448,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_ismetin_emaneti
 		icon = GFX_focus_generic_attack_greece
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_balkanlardan_orta_doguya
 		}
@@ -555,7 +555,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_fransayla_anlasma
 		icon = GFX_focus_chi_reach_out_to_france
-		cost = 4,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_balkanlardan_orta_doguya
 		}
@@ -569,7 +569,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_ingiltereyle_anlasma
 		icon = GFX_focus_chi_british_cooperation
-		cost = 4,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_fransayla_anlasma
 		}
@@ -583,7 +583,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_izmiri_burdurilestir
 		icon = focus_porcay_uatang
-		cost = 2,00
+		cost = 10,00
 		available = { controls_state = 339 }
 		prerequisite = {
 			focus = BRU_izmir_refarendumu
@@ -598,7 +598,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_adalari_burdurilestirmek
 		icon = focus_porcay_uatang
-		cost = 2,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_ismetin_emaneti
 		}
@@ -613,7 +613,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_yunanistan_operasyonu
 		icon = GFX_focus_generic_attack_greece
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_adalari_burdurilestirmek
 		}
@@ -630,7 +630,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_bati_anadolu_or_war
 		icon = GFX_focus_generic_attack_turkey
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_izmiri_burdurilestir
 		}
@@ -642,7 +642,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_suudi_savas
 		icon = GFX_goal_generic_oil_refinery
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_ingiltereyle_anlasma
 		}
@@ -659,7 +659,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_irak_savas
 		icon = GFX_focus_TUR_support_the_golden_square
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_ingiltereyle_anlasma
 		}
@@ -676,7 +676,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_bulgarist_saldir
 		icon = GFX_focus_generic_attack_bulgaria
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_izmiri_burdurilestir
 		}
@@ -696,7 +696,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_arnavutlukun_fethi
 		icon = GFX_goal_generic_territory_or_war
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_bulgarist_saldir
 		}
@@ -713,7 +713,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_yem_saldir
 		icon = GFX_focus_RAJ_lions_of_the_great_war
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_suudi_savas
 		}
@@ -733,7 +733,7 @@ create_country_leader = {
 	focus = {
 		id = BRU_oma_fethi
 		icon = GFX_focus_RAJ_lions_of_the_great_war
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
 			focus = BRU_yem_saldir
 		}
