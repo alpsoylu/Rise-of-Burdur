@@ -1,0 +1,354 @@
+####INDUSTRY BRANCH####
+	shared_focus = {
+		id = BRU_mimar_erkani_burdur_mimari_ilan_et
+		icon = GFX_goal_dreams_burdur
+		cost = 5,00
+		x = 25
+		y = 0
+completion_reward {
+807 {
+add_dynamic_modifier = { modifier = mimar_erkan_dynamic } 
+}
+		}
+	}
+	####Burdur Endüstri Planı####
+	shared_focus = {
+		id = BRU_buyuk_burdur_endustriyel_plan
+		icon = focus_porcay_uatang
+		cost = 5,00
+		x = -2
+		y = 1
+		relative_position_id = BRU_mimar_erkani_burdur_mimari_ilan_et
+		prerequisite = {
+		focus = BRU_mimar_erkani_burdur_mimari_ilan_et
+		}
+completion_reward {
+add_ideas = BRU_burdur_buyuk_plan
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_metropol_burdur_projesi
+		icon = GFX_focus_generic_industry_2
+		cost = 5,00
+		x = 0
+		y = 1
+		relative_position_id = BRU_buyuk_burdur_endustriyel_plan
+		prerequisite = {
+		focus = BRU_buyuk_burdur_endustriyel_plan
+		}
+completion_reward {
+unlock_decision_tooltip = BRU_buyuk_burdur_endustri_alan_i
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_burdur_altyapıları_gelistir
+		icon = focus_porcay_yol_i
+		cost = 5,00
+		x = 0
+		y = 1
+		relative_position_id = BRU_metropol_burdur_projesi
+		prerequisite = {
+		focus = BRU_metropol_burdur_projesi
+		}
+completion_reward {
+807 = {
+    if = {
+        limit = { is_controlled_by = BRU }
+        add_building_construction = {
+            type = infrastructure
+            level = 2
+            instant_build = yes
+        }
+    }
+}
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_burdur_endustriyel_alanı
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 20,00
+		x = -2
+		y = 1
+		relative_position_id = BRU_metropol_burdur_projesi
+		prerequisite = {
+		focus = BRU_metropol_burdur_projesi
+		}
+completion_reward {
+unlock_decision_tooltip = BRU_burdur_sanayi_sirketini_kur
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_burdur_askeri_endustrisi
+		icon = GFX_focus_generic_tank_production
+		cost = 15,00
+		x = 2
+		y = 1
+		relative_position_id = BRU_metropol_burdur_projesi
+		prerequisite = {
+		focus = BRU_metropol_burdur_projesi
+		}
+completion_reward {
+unlock_decision_tooltip = BRU_burdur_askeri_sanayi_sirketini_kur
+		}
+	}
+	
+	
+	shared_focus = {
+		id = BRU_gelecegin_sehri
+		icon = focus_porcay_yol_ii
+		cost = 5,00
+		x = 0
+		y = 2
+		relative_position_id = BRU_metropol_burdur_projesi
+		prerequisite = {
+		focus = BRU_burdur_endustriyel_alanı
+		}
+		prerequisite = {
+		focus = BRU_burdur_askeri_endustrisi
+		}
+		prerequisite = {
+		focus = BRU_burdur_altyapıları_gelistir
+		}
+completion_reward {
+add_ideas = BRU_gelecegin_sehri
+		}
+	}
+
+
+##Diğer Sehirler##
+	shared_focus = {
+		id = BRU_bes_yıllık_endustriyel_plan
+		icon = focus_porcay_uatang
+		cost = 5,00
+		x = 2
+		y = 1
+		relative_position_id = BRU_mimar_erkani_burdur_mimari_ilan_et
+		prerequisite = {
+		focus = BRU_mimar_erkani_burdur_mimari_ilan_et
+		}
+completion_reward {
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_endustriyi_gelistir
+		icon = GFX_goal_generic_production
+		cost = 5,00
+		x = 0
+		y = 1
+		relative_position_id = BRU_bes_yıllık_endustriyel_plan
+		prerequisite = {
+		focus = BRU_bes_yıllık_endustriyel_plan
+		}
+completion_reward {
+
+random_owned_controlled_state = {
+add_building_construction = {
+    type = industrial_complex
+    level = 1
+    instant_build = yes
+}
+     add_extra_state_shared_building_slots = 1 
+	}
+	
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_endustriyi_gelistir_2
+		icon = GFX_goal_generic_production
+		cost = 5,00
+		x = 0
+		y = 2
+		relative_position_id = BRU_bes_yıllık_endustriyel_plan
+		prerequisite = {
+		focus = BRU_endustriyi_gelistir
+		}
+completion_reward {
+
+random_owned_controlled_state = {
+add_building_construction = {
+    type = industrial_complex
+    level = 2
+    instant_build = yes
+}
+     add_extra_state_shared_building_slots = 2 
+	}
+
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_endustriyi_gelistir_3
+		icon = GFX_goal_generic_production
+		cost = 5,00
+		x = 0
+		y = 3
+		relative_position_id = BRU_bes_yıllık_endustriyel_plan
+		prerequisite = {
+		focus = BRU_endustriyi_gelistir_2
+		}
+completion_reward {
+
+random_owned_controlled_state = {
+add_building_construction = {
+    type = industrial_complex
+    level = 3
+    instant_build = yes
+}
+     add_extra_state_shared_building_slots = 3 
+	}
+
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_askeri_endustriyi_gelistir
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5,00
+		x = 2
+		y = 1
+		relative_position_id = BRU_bes_yıllık_endustriyel_plan
+		prerequisite = {
+		focus = BRU_bes_yıllık_endustriyel_plan
+		}
+completion_reward {
+
+random_owned_controlled_state = {
+add_building_construction = {
+    type = arms_factory
+    level = 1
+    instant_build = yes
+}
+     add_extra_state_shared_building_slots = 1 
+	}
+
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_askeri_endustriyi_gelistir_2
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5,00
+		x = 2
+		y = 2
+		relative_position_id = BRU_bes_yıllık_endustriyel_plan
+		prerequisite = {
+		focus = BRU_askeri_endustriyi_gelistir
+		}
+completion_reward {
+
+random_owned_controlled_state = {
+add_building_construction = {
+    type = arms_factory
+    level = 2
+    instant_build = yes
+}
+     add_extra_state_shared_building_slots = 2
+	}
+
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_askeri_endustriyi_gelistir_3
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5,00
+		x = 2
+		y = 3
+		relative_position_id = BRU_bes_yıllık_endustriyel_plan
+		prerequisite = {
+		focus = BRU_askeri_endustriyi_gelistir_2
+		}
+completion_reward {
+
+random_owned_controlled_state = {
+add_building_construction = {
+    type = arms_factory
+    level = 3
+    instant_build = yes
+}
+     add_extra_state_shared_building_slots = 3
+	}
+
+		}
+	}
+	
+	
+	
+	#RESEARCH#
+	shared_focus = {
+		id = BRU_bilim_kurulunu_kur
+		icon = focus_porcay_uatang
+		cost = 5,00
+		x = 6
+		y = 1
+		relative_position_id = BRU_mimar_erkani_burdur_mimari_ilan_et
+		prerequisite = {
+		focus = BRU_mimar_erkani_burdur_mimari_ilan_et
+		}
+completion_reward {
+add_ideas = BRU_bilim_kurulu
+add_research_slot = 1
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_bilim_kuruluna_destek_sagla
+		icon = focus_porcay_uatang
+		cost = 5,00
+		x = 2
+		y = 1
+		relative_position_id = BRU_bilim_kurulunu_kur
+		prerequisite = {
+		focus = BRU_bilim_kurulunu_kur
+		}
+completion_reward {
+swap_ideas = {
+add_idea = BRU_bilim_kurulu_ii
+remove_idea = BRU_bilim_kurulu
+}
+add_research_slot = 1
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_bilim_kuruluna_adam_sok
+		icon = focus_porcay_uatang
+		cost = 5,00
+		x = -1
+		y = 1
+		relative_position_id = BRU_bilim_kuruluna_destek_sagla
+		prerequisite = {
+		focus = BRU_bilim_kuruluna_destek_sagla
+		}
+completion_reward {
+swap_ideas = {
+add_idea = BRU_bilim_kurulu_iii
+remove_idea = BRU_bilim_kurulu_ii
+}
+		}
+	}
+	
+	shared_focus = {
+		id = BRU_bilim_kuruluna_rusvet_ver
+		icon = focus_porcay_uatang
+		cost = 5,00
+		x = 1
+		y = 1
+		relative_position_id = BRU_bilim_kuruluna_destek_sagla
+		available = { has_completed_focus = BRU_bilim_kuruluna_adam_sok }
+		prerequisite = {
+		focus = BRU_bilim_kuruluna_destek_sagla
+		}
+completion_reward {
+swap_ideas = {
+add_idea = BRU_bilim_kurulu_iv
+remove_idea = BRU_bilim_kurulu_iii
+}
+		}
+	}

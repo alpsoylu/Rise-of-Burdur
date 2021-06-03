@@ -51,52 +51,13 @@ option = {
 
 
 
-##Feminist Revolt##
-country_event = {
-	id = burdur_porcay.2
-	title = burdur_porcay.2.t
-	desc = burdur_porcay.2.desc
-	picture = GFX_report_event_tur_britain
-
-	is_triggered_only = yes
-	trigger = {
-			BUR { owns_state = 797
-			owns_state = 341
-			owns_state = 340
-			owns_state = 347
-			controls_state = 797
-			controls_state = 341
-			controls_state = 340
-			controls_state = 347
-		}
-		}
-	
-	option = {
-		name = burdur_porcay.2.a #Sikelim Belalarını
-		ai_chance = {
-			factor = 40
-		}
-		custom_effect_tooltip = BRU_this_will_monarchy_tt
-		hidden_effect = {
-			FEM {
-			transfer_state = 797
-			transfer_state = 341
-			transfer_state = 340
-			transfer_state = 347
-			declare_war_on = { type = annex_everything    target = BRU }
-			}
-		}
-	}		
-}
-
-
 
 
 
 
 ##İngilizle Anlaşma##
 country_event = {
-	id = burdur_porcay.3
+	id = burdur_porcay.3 #event burdur_porcay.3 BRU
 	title = burdur_porcay.3.t
 	desc = burdur_porcay.3.desc
 	picture = GFX_report_event_tur_britain
@@ -109,7 +70,7 @@ country_event = {
 			factor = 40
 		}
 		hidden_effect = {
-		BRU {
+		BRU = {
 		transfer_state = 454
 		transfer_state = 455
 		transfer_state = 659
@@ -118,7 +79,7 @@ country_event = {
 		transfer_state = 656
 		transfer_state = 453
 		}
-		ENG {
+		ENG = {
 		add_ideas = BRU_burduri_yatırımcılar
 		}
 		}
@@ -138,7 +99,7 @@ country_event = {
 
 ##Fransızla Anlaşma##
 country_event = {
-	id = burdur_porcay.4
+	id = burdur_porcay.4 #event burdur_porcay.4 BRU
 	title = burdur_porcay.4.t
 	desc = burdur_porcay.4.desc
 	picture = GFX_report_event_tur_britain
@@ -151,14 +112,14 @@ country_event = {
 			factor = 40
 		}
 		hidden_effect = {
-		BRU {
+		BRU = {
 		transfer_state = 677
 		transfer_state = 680
 		transfer_state = 554
 		transfer_state = 553
 		transfer_state = 799
 		}
-		FRA {
+		FRA = {
 		add_ideas = BRU_burduri_yatırımcılar
 		}
 		}
@@ -192,7 +153,7 @@ country_event = {
 			factor = 40
 		}
 		hidden_effect = {
-		BRU {
+		BRU = {
 		transfer_state = 187
 		transfer_state = 182
 		}
@@ -205,52 +166,19 @@ country_event = {
 			factor = 0
 		}
 		hidden_effect = {
+		BRU = {
 		create_wargoal = {
 	type = take_state_focus
 	generator = { 187 182 }
     target = GRE
 }
-		}
-	}			
-}
-
-
-
-##On iki ada##
-country_event = {
-	id = burdur_porcay.6
-	title = burdur_porcay.6.t
-	desc = burdur_porcay.6.desc
-	picture = GFX_report_event_tur_britain
-
-	is_triggered_only = yes
-	
-	option = {
-		name = burdur_porcay.6.a #Tamam
-		ai_chance = {
-			factor = 40
-		}
-		hidden_effect = {
-		BRU {
-		transfer_state = 164
-		}
-		}
-	}	
-
-	option = {
-		name = burdur_porcay.6.b #Hayır
-		ai_chance = {
-			factor = 0
-		}
-		hidden_effect = {
-		create_wargoal = {
-	type = take_state_focus
-	generator = { 164 }
-    target = ITA
 }
 		}
 	}			
 }
+
+
+
 
 
 ##İzmir talebi##
@@ -265,47 +193,28 @@ country_event = {
 	option = {
 		name = burdur_porcay.7.a #Tamam
 		ai_chance = {
-			factor = 40
+			factor = 0
 		}
 		hidden_effect = {
-		BRU = { country_event = { id = burdur_porcay.8 } }
+		BRU = { transfer_state = 339 }
 		}
 	}	
 
 	option = {
 		name = burdur_porcay.7.b #Hayır
 		ai_chance = {
-			factor = 0
+			factor = 40
 		}
 		hidden_effect = {
+		BRU = {
 		create_wargoal = {
 	type = take_state_focus
 	generator = { 339 }
-    target = ITA
+    target = TUR
+}
 }
 		}
 	}			
 }
 
 
-
-##İzmir talebi##
-country_event = {
-	id = burdur_porcay.8
-	title = burdur_porcay.8.t
-	desc = burdur_porcay.8.desc
-	picture = GFX_report_event_tur_britain
-
-	is_triggered_only = yes
-	
-	option = {
-		name = burdur_porcay.8.a #Hojgeldiniz
-		ai_chance = {
-			factor = 40
-		}
-		hidden_effect = {
-		BRU = { transfer_state = 339 }
-		}
-	}	
-	
-}

@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 20
 			tag = BRU
 		}
 	}
@@ -124,6 +124,63 @@ completion_reward {
 		}
 		x = 6
 		y = 5
+
+	}
+	
+	focus = {
+		id = BRU_establish_martial_law_in_burdurland_monarchy
+		icon = focus_porcay_gehass
+		cost = 2,00
+		prerequisite = {
+			focus = BRU_ang_icin
+		}
+		completion_reward = {
+    add_ideas = BRU_burdurland_ii
+		if = {
+		limit = { has_idea = BRU_burdurland_i }
+		remove_ideas = BRU_burdurland_i
+		}
+		}
+		x = 5
+		y = 6
+
+	}
+	
+	focus = {
+		id = BRU_establish_burdurban_monarchy
+		icon = focus_porcay_thanos
+		cost = 2,00
+		prerequisite = {
+			focus = BRU_establish_martial_law_in_burdurland_monarchy
+		}
+		completion_reward = {
+    add_ideas = BRU_burdurban
+		if = {
+		limit = { has_idea = BRU_burdurland_ii }
+		remove_ideas = BRU_burdurland_ii
+		}
+		}
+		x = 5
+		y = 7
+
+	}
+	
+	focus = {
+		id = BRU_burdurland_problem_solved_monarchy
+		icon = focus_porcay_thanos
+		cost = 2,00
+		prerequisite = {
+			focus = BRU_establish_burdurban_monarchy
+		}
+		completion_reward = {
+    add_ideas = BRU_burdurland_positive
+		if = {
+		limit = { has_idea = BRU_burdurban }
+		remove_ideas = BRU_burdurban
+		}
+		}
+		x = 5
+		y = 8
 
 	}
 	focus = {
@@ -376,7 +433,7 @@ create_country_leader = {
 	}
 	focus = {
 		id = BRU_izmir_refarendumu
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_treaty
 		cost = 5,00
 		prerequisite = {
 			focus = BRU_balkanlardan_orta_doguya
@@ -390,7 +447,7 @@ create_country_leader = {
 	}
 	focus = {
 		id = BRU_ismetin_emaneti
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_attack_greece
 		cost = 5,00
 		prerequisite = {
 			focus = BRU_balkanlardan_orta_doguya
@@ -404,14 +461,18 @@ create_country_leader = {
 	}
 	
 	focus = {
-		id = BRU_onikiadayı_iste
-		icon = GFX_goal_unknown
+		id = BRU_onikiadayı_istemek
+		icon = GFX_focus_GRE_byzantine_themata
 		cost = 5,00
 		prerequisite = {
 			focus = BRU_ismetin_emaneti
 		}
+		allow_branch = {always = no}
 		completion_reward = {
-		ITA = { country_event = { id = burdur_porcay.6 } }
+		every_country = {
+		limit = {controls_state = 164 }
+		PREV = { country_event = { id = burdur_porcay.6 } }
+		}
 		}
 		x = 18
 		y = 9
@@ -419,11 +480,11 @@ create_country_leader = {
 	}
 	
 	focus = {
-		id = BRU_onikiadayı_burdurileştir
-		icon = GFX_goal_unknown
+		id = BRU_onikiadayı_burdurileştirmek
+		icon = GFX_focus_GRE_byzantine_themata
 		cost = 2,00
 		prerequisite = {
-			focus = BRU_onikiadayı_iste
+			focus = BRU_onikiadayı_istemek
 		}
 		completion_reward = {
 		add_state_core = 164
@@ -469,7 +530,7 @@ create_country_leader = {
 
 	}
 	focus = {
-		id = BRU_improve_burduri_railroads
+		id = BRU_improve_burduri_railroad
 		icon = focus_porcay_yol_ii
 		cost = 5,00
 		prerequisite = {
@@ -535,7 +596,7 @@ create_country_leader = {
 
 	}
 	focus = {
-		id = BRU_adaları_burdurilestir
+		id = BRU_adalari_burdurilestirmek
 		icon = focus_porcay_uatang
 		cost = 2,00
 		prerequisite = {
@@ -554,7 +615,7 @@ create_country_leader = {
 		icon = GFX_focus_generic_attack_greece
 		cost = 5,00
 		prerequisite = {
-			focus = BRU_adaları_burdurilestir
+			focus = BRU_adalari_burdurilestirmek
 		}
 		completion_reward = {
 		create_wargoal = {
@@ -567,18 +628,19 @@ create_country_leader = {
 
 	}
 	focus = {
-		id = BRU_batı_anadolu_veya_savas
-		icon = GFX_goal_unknown
+		id = BRU_bati_anadolu_or_war
+		icon = GFX_focus_generic_attack_turkey
 		cost = 5,00
 		prerequisite = {
 			focus = BRU_izmiri_burdurilestir
 		}
+		allow_branch = {always = no}
 		x = 11
 		y = 10
 
 	}
 	focus = {
-		id = BRU_suudileri_arabistandan_at
+		id = BRU_suudi_savas
 		icon = GFX_goal_generic_oil_refinery
 		cost = 5,00
 		prerequisite = {
@@ -595,7 +657,7 @@ create_country_leader = {
 
 	}
 	focus = {
-		id = BRU_ırakın_fethi
+		id = BRU_irak_savas
 		icon = GFX_focus_TUR_support_the_golden_square
 		cost = 5,00
 		prerequisite = {
@@ -612,11 +674,11 @@ create_country_leader = {
 
 	}
 	focus = {
-		id = BRU_bulgaristana_saldır
-		icon = GFX_goal_unknown
+		id = BRU_bulgarist_saldir
+		icon = GFX_focus_generic_attack_bulgaria
 		cost = 5,00
 		prerequisite = {
-			focus = BRU_batı_anadolu_veya_savas
+			focus = BRU_izmiri_burdurilestir
 		}
 		prerequisite = {
 			focus = BRU_yunanistan_operasyonu
@@ -627,39 +689,16 @@ create_country_leader = {
 			type = annex_everything
 		}
 		}
-		x = 12
+		x = 13
 		y = 11
 
 	}
 	focus = {
 		id = BRU_arnavutlukun_fethi
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_territory_or_war
 		cost = 5,00
 		prerequisite = {
-			focus = BRU_bulgaristana_saldır
-		}
-		prerequisite = {
-			focus = BRU_romanyaya_saldır
-		}
-		completion_reward = {
-		create_wargoal = {
-			target = ALB
-			type = annex_everything
-		}
-		}
-		x = 12
-		y = 12
-
-	}
-	focus = {
-		id = BRU_yugoslavyaya_saldır
-		icon = GFX_goal_unknown
-		cost = 5,00
-		prerequisite = {
-			focus = BRU_bulgaristana_saldır
-		}
-		prerequisite = {
-			focus = BRU_romanyaya_saldır
+			focus = BRU_bulgarist_saldir
 		}
 		completion_reward = {
 		create_wargoal = {
@@ -667,19 +706,19 @@ create_country_leader = {
 			type = annex_everything
 		}
 		}
-		x = 14
+		x = 13
 		y = 12
 
 	}
 	focus = {
-		id = BRU_yemene_saldır
-		icon = GFX_goal_unknown
+		id = BRU_yem_saldir
+		icon = GFX_focus_RAJ_lions_of_the_great_war
 		cost = 5,00
 		prerequisite = {
-			focus = BRU_suudileri_arabistandan_at
+			focus = BRU_suudi_savas
 		}
 		prerequisite = {
-			focus = BRU_ırakın_fethi
+			focus = BRU_irak_savas
 		}
 		completion_reward = {
 		create_wargoal = {
@@ -692,56 +731,11 @@ create_country_leader = {
 
 	}
 	focus = {
-		id = BRU_balkanların_sahibi
-		icon = GFX_goal_unknown
+		id = BRU_oma_fethi
+		icon = GFX_focus_RAJ_lions_of_the_great_war
 		cost = 5,00
 		prerequisite = {
-			focus = BRU_arnavutlukun_fethi
-		}
-		prerequisite = {
-			focus = BRU_yugoslavyaya_saldır
-		}
-		x = 13
-		y = 13
-
-	}
-	focus = {
-		id = BRU_romanyaya_saldır
-		icon = GFX_goal_unknown
-		cost = 5,00
-		prerequisite = {
-			focus = BRU_batı_anadolu_veya_savas
-		}
-		prerequisite = {
-			focus = BRU_yunanistan_operasyonu
-		}
-		completion_reward = {
-		create_wargoal = {
-			target = ROM
-			type = annex_everything
-		}
-		}
-		x = 14
-		y = 11
-
-	}
-	focus = {
-		id = BRU_orta_dogunun_sahibi
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = BRU_ummanın_fethi
-		}
-		x = 7
-		y = 13
-
-	}
-	focus = {
-		id = BRU_ummanın_fethi
-		icon = GFX_goal_unknown
-		cost = 5,00
-		prerequisite = {
-			focus = BRU_yemene_saldır
+			focus = BRU_yem_saldir
 		}
 		completion_reward = {
 		create_wargoal = {
@@ -754,19 +748,98 @@ create_country_leader = {
 
 	}
 	focus = {
-		id = BRU_burdur_imparatorlugu
-		icon = GFX_goal_unknown
+		id = BRU_burdur_imparatorluku
+		icon = GFX_focus_porcay_burdur
 		cost = 10,00
 		prerequisite = {
-			focus = BRU_orta_dogunun_sahibi
+			focus = BRU_oma_fethi
 		}
 		prerequisite = {
-			focus = BRU_balkanların_sahibi
+			focus = BRU_arnavutlukun_fethi
+		}
+		completion_reward = {
+		add_war_support = 0.15
+		add_stability = 0.15
 		}
 		x = 10
-		y = 14
+		y = 13
 
 	}
+	
+	
+	
+	#shared_focus = BRU_mimar_erkani_burdur_mimari_ilan_et
+	shared_focus = GEN_army_effort
+	shared_focus = GEN_aviation_effort
+	shared_focus = GEN_naval_effort
+	shared_focus = GEN_industrial_effort
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -1412,125 +1485,6 @@ create_unit = {
 	
 	
 	
-	####INDUSTRY BRANCH####
-	focus = {
-		id = BRU_mimar_erkani_burdur_mimari_ilan_et
-		icon = GFX_goal_dreams_burdur
-		cost = 5,00
-		x = 25
-		y = 0
-completion_reward {
-807 {
-add_dynamic_modifier = { modifier = mimar_erkan_dynamic } 
-}
-		}
-	}
-	####Burdur Endüstri Planı####
-	focus = {
-		id = BRU_buyuk_burdur_endustriyel_planı
-		icon = focus_porcay_uatang
-		cost = 5,00
-		x = -2
-		y = 1
-		relative_position_id = BRU_mimar_erkani_burdur_mimari_ilan_et
-		prerequisite = {
-		focus = BRU_mimar_erkani_burdur_mimari_ilan_et
-		}
-completion_reward {
-add_ideas = BRU_burdur_buyuk_plan
-		}
-	}
-	
-	focus = {
-		id = BRU_metropol_burdur_projesi
-		icon = GFX_focus_generic_industry_2
-		cost = 5,00
-		x = 0
-		y = 1
-		relative_position_id = BRU_buyuk_burdur_endustriyel_planı
-		prerequisite = {
-		focus = BRU_buyuk_burdur_endustriyel_planı
-		}
-completion_reward {
-unlock_decision_tooltip = BRU_buyuk_burdur_endustri_alan_i
-		}
-	}
-	
-	focus = {
-		id = BRU_burdur_altyapıları_gelistir
-		icon = focus_porcay_yol_i
-		cost = 5,00
-		x = 0
-		y = 1
-		relative_position_id = BRU_metropol_burdur_projesi
-		prerequisite = {
-		focus = BRU_metropol_burdur_projesi
-		}
-completion_reward {
-807 = {
-    if = {
-        limit = { is_controlled_by = BRU }
-        add_building_construction = {
-            type = infrastructure
-            level = 2
-            instant_build = yes
-        }
-    }
-}
-		}
-	}
-	
-	focus = {
-		id = BRU_burdur_endustriyel_alanı
-		icon = GFX_focus_generic_the_giant_wakes
-		cost = 20,00
-		x = -2
-		y = 1
-		relative_position_id = BRU_metropol_burdur_projesi
-		prerequisite = {
-		focus = BRU_metropol_burdur_projesi
-		}
-completion_reward {
-unlock_decision_tooltip = BRU_burdur_sanayi_sirketini_kur
-		}
-	}
-	
-	focus = {
-		id = BRU_burdur_askeri_endustrisi
-		icon = GFX_focus_generic_tank_production
-		cost = 15,00
-		x = 2
-		y = 1
-		relative_position_id = BRU_metropol_burdur_projesi
-		prerequisite = {
-		focus = BRU_metropol_burdur_projesi
-		}
-completion_reward {
-unlock_decision_tooltip = BRU_burdur_askeri_sanayi_sirketini_kur
-		}
-	}
-	
-	
-	focus = {
-		id = BRU_gelecegin_sehri
-		icon = focus_porcay_yol_ii
-		cost = 5,00
-		x = 0
-		y = 2
-		relative_position_id = BRU_metropol_burdur_projesi
-		prerequisite = {
-		focus = BRU_burdur_endustriyel_alanı
-		}
-		prerequisite = {
-		focus = BRU_burdur_askeri_endustrisi
-		}
-		prerequisite = {
-		focus = BRU_burdur_altyapıları_gelistir
-		}
-completion_reward {
-add_ideas = BRU_gelecegin_sehri
-		}
-	}
 	
 	
 	
@@ -1540,239 +1494,8 @@ add_ideas = BRU_gelecegin_sehri
 	
 	
 	
-	##Diğer Sehirler##
-	focus = {
-		id = BRU_bes_yıllık_endustriyel_plan
-		icon = focus_porcay_uatang
-		cost = 5,00
-		x = 2
-		y = 1
-		relative_position_id = BRU_mimar_erkani_burdur_mimari_ilan_et
-		prerequisite = {
-		focus = BRU_mimar_erkani_burdur_mimari_ilan_et
-		}
-completion_reward {
-		}
-	}
-	
-	focus = {
-		id = BRU_endustriyi_gelistir
-		icon = GFX_goal_generic_production
-		cost = 5,00
-		x = 0
-		y = 1
-		relative_position_id = BRU_bes_yıllık_endustriyel_plan
-		prerequisite = {
-		focus = BRU_bes_yıllık_endustriyel_plan
-		}
-completion_reward {
-
-random_owned_controlled_state = {
-add_building_construction = {
-    type = industrial_complex
-    level = 1
-    instant_build = yes
-}
-     add_extra_state_shared_building_slots = 1 
-	}
-	
-		}
-	}
-	
-	focus = {
-		id = BRU_endustriyi_gelistir_2
-		icon = GFX_goal_generic_production
-		cost = 5,00
-		x = 0
-		y = 2
-		relative_position_id = BRU_bes_yıllık_endustriyel_plan
-		prerequisite = {
-		focus = BRU_endustriyi_gelistir
-		}
-completion_reward {
-
-random_owned_controlled_state = {
-add_building_construction = {
-    type = industrial_complex
-    level = 2
-    instant_build = yes
-}
-     add_extra_state_shared_building_slots = 2 
-	}
-
-		}
-	}
-	
-	focus = {
-		id = BRU_endustriyi_gelistir_3
-		icon = GFX_goal_generic_production
-		cost = 5,00
-		x = 0
-		y = 3
-		relative_position_id = BRU_bes_yıllık_endustriyel_plan
-		prerequisite = {
-		focus = BRU_endustriyi_gelistir_2
-		}
-completion_reward {
-
-random_owned_controlled_state = {
-add_building_construction = {
-    type = industrial_complex
-    level = 3
-    instant_build = yes
-}
-     add_extra_state_shared_building_slots = 3 
-	}
-
-		}
-	}
-	
-	focus = {
-		id = BRU_askeri_endustriyi_gelistir
-		icon = GFX_goal_generic_allies_build_infantry
-		cost = 5,00
-		x = 2
-		y = 1
-		relative_position_id = BRU_bes_yıllık_endustriyel_plan
-		prerequisite = {
-		focus = BRU_bes_yıllık_endustriyel_plan
-		}
-completion_reward {
-
-random_owned_controlled_state = {
-add_building_construction = {
-    type = arms_factory
-    level = 1
-    instant_build = yes
-}
-     add_extra_state_shared_building_slots = 1 
-	}
-
-		}
-	}
-	
-	focus = {
-		id = BRU_askeri_endustriyi_gelistir_2
-		icon = GFX_goal_generic_allies_build_infantry
-		cost = 5,00
-		x = 2
-		y = 2
-		relative_position_id = BRU_bes_yıllık_endustriyel_plan
-		prerequisite = {
-		focus = BRU_askeri_endustriyi_gelistir
-		}
-completion_reward {
-
-random_owned_controlled_state = {
-add_building_construction = {
-    type = arms_factory
-    level = 2
-    instant_build = yes
-}
-     add_extra_state_shared_building_slots = 2
-	}
-
-		}
-	}
-	
-	focus = {
-		id = BRU_askeri_endustriyi_gelistir_3
-		icon = GFX_goal_generic_allies_build_infantry
-		cost = 5,00
-		x = 2
-		y = 3
-		relative_position_id = BRU_bes_yıllık_endustriyel_plan
-		prerequisite = {
-		focus = BRU_askeri_endustriyi_gelistir_2
-		}
-completion_reward {
-
-random_owned_controlled_state = {
-add_building_construction = {
-    type = arms_factory
-    level = 3
-    instant_build = yes
-}
-     add_extra_state_shared_building_slots = 3
-	}
-
-		}
-	}
 	
 	
-	
-	#RESEARCH#
-	focus = {
-		id = BRU_bilim_kurulunu_kur
-		icon = focus_porcay_uatang
-		cost = 5,00
-		x = 6
-		y = 1
-		relative_position_id = BRU_mimar_erkani_burdur_mimari_ilan_et
-		prerequisite = {
-		focus = BRU_mimar_erkani_burdur_mimari_ilan_et
-		}
-completion_reward {
-add_ideas = BRU_bilim_kurulu
-add_research_slot = 1
-		}
-	}
-	
-	focus = {
-		id = BRU_bilim_kuruluna_destek_sagla
-		icon = focus_porcay_uatang
-		cost = 5,00
-		x = 2
-		y = 1
-		relative_position_id = BRU_bilim_kurulunu_kur
-		prerequisite = {
-		focus = BRU_bilim_kurulunu_kur
-		}
-completion_reward {
-swap_ideas = {
-add_idea = BRU_bilim_kurulu_ii
-remove_idea = BRU_bilim_kurulu
-}
-add_research_slot = 1
-		}
-	}
-	
-	focus = {
-		id = BRU_bilim_kuruluna_adam_sok
-		icon = focus_porcay_uatang
-		cost = 5,00
-		x = -1
-		y = 1
-		relative_position_id = BRU_bilim_kuruluna_destek_sagla
-		prerequisite = {
-		focus = BRU_bilim_kuruluna_destek_sagla
-		}
-completion_reward {
-swap_ideas = {
-add_idea = BRU_bilim_kurulu_iii
-remove_idea = BRU_bilim_kurulu_ii
-}
-		}
-	}
-	
-	focus = {
-		id = BRU_bilim_kuruluna_rusvet_ver
-		icon = focus_porcay_uatang
-		cost = 5,00
-		x = 1
-		y = 1
-		relative_position_id = BRU_bilim_kuruluna_destek_sagla
-		available = { has_completed_focus = BRU_bilim_kuruluna_adam_sok }
-		prerequisite = {
-		focus = BRU_bilim_kuruluna_destek_sagla
-		}
-completion_reward {
-swap_ideas = {
-add_idea = BRU_bilim_kurulu_iv
-remove_idea = BRU_bilim_kurulu_iii
-}
-		}
-	}
 	
 	
 	

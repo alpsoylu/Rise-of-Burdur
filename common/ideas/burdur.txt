@@ -645,55 +645,6 @@ ideas = {
 		
 	}
 	
-
-	
-	political_advisor = {
-
-		BRU_huseyin_abi = {
-
-			picture = generic_political_advisor_europe_5
-
-			allowed = {
-				original_tag = BRU
-			}
-			
-			traits = { captain_of_industry }
-		}
-		
-		BRU_ebabil = {
-
-			picture = generic_political_advisor_europe_5
-
-			allowed = {
-				original_tag = BRU
-			}
-			
-			traits = { popular_figurehead2 }
-		}
-		
-		BRU_red_head_feminist = {
-
-			picture = generic_political_advisor_europe_5
-
-			allowed = {
-				original_tag = BRU
-			}
-			
-			traits = { feminist_orospu_cocu }
-		}
-		
-		BRU_ultroll = {
-
-			picture = generic_political_advisor_europe_5
-
-			allowed = {
-				original_tag = BRU
-			}
-			
-			traits = { ultroll_trait }
-		}
-		
-		}
 	
 	
 	

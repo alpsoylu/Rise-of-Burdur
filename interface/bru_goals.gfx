@@ -2,8 +2,312 @@ spriteTypes = {
 
 
 
+
+
+
+	### USA equipment ###	
+
+	SpriteType = {
+		name = "GFX_BRU_motorized_rocket_unit_medium"
+		texturefile = "gfx/interface/technologies/USA_motorized_rocket_unit.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/USA_motorized_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_2_allies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_1_allies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Art_3_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_artillery1_medium"
+		texturefile = "gfx/interface/technologies/Art_2_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/Art_1_allies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_antitank5_medium"
+		texturefile = "gfx/interface/technologies/AT_3_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_antitank2_medium"
+		texturefile = "gfx/interface/technologies/AT_2_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_interwar_antitank_medium"
+		texturefile = "gfx/interface/technologies/AT_1_allies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_antiair5_medium"
+		texturefile = "gfx/interface/technologies/AA_3_allies.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRU_antiair2_medium"
+		texturefile = "gfx/interface/technologies/AA_2_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_interwar_antiair_medium"
+		texturefile = "gfx/interface/technologies/AA_1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRU_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/usa_advanced_infantry_weapons.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/usa_improved_infantry_weapons.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_BRU_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/usa_basic_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/usa_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/usa_motorised_infantry.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRU_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/usa_motorised_infantry.dds"
+	}
+	
+### USA planes ####
+
+	SpriteType = {
+		name = "GFX_BRU_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/USA_early_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_CAS1_medium"
+		texturefile = "gfx/interface/technologies/USA_CAS1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_BRU_CAS2_medium"
+		texturefile = "gfx/interface/technologies/USA_CAS2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_CAS3_medium"
+		texturefile = "gfx/interface/technologies/USA_CAS3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRU_cv_CAS2_medium"
+		texturefile = "gfx/interface/technologies/USA_CAS2_cv.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_cv_CAS3_medium"
+		texturefile = "gfx/interface/technologies/USA_CAS3_cv.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRU_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/USA_tactical_bomber1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/USA_tactical_bomber2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRU_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/USA_tactical_bomber3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_BRU_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/USA_strategic_bomber3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/USA_strategic_bomber2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/USA_strategic_bomber1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/usa_naval_bomber_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/usa_naval_bomber_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/usa_naval_bomber_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/USA_naval_bomber1_cv.dds"
+	}	
+	SpriteType = {
+		name = "GFX_BRU_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/USA_naval_bomber2_cv.dds"
+	}	
+	SpriteType = {
+		name = "GFX_BRU_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/USA_naval_bomber3_cv.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/USA_heavy_fighter3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/USA_heavy_fighter2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/USA_heavy_fighter1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_fighter3_medium"
+		texturefile = "gfx/interface/technologies/USA_fighter3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_cv_fighter3_medium"
+		texturefile = "gfx/interface/technologies/USA_fighter3_cv.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_fighter2_medium"
+		texturefile = "gfx/interface/technologies/USA_fighter2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_cv_fighter2_medium"
+		texturefile = "gfx/interface/technologies/USA_fighter2_cv.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_fighter1_medium"
+		texturefile = "gfx/interface/technologies/USA_fighter1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_cv_fighter1_medium"
+		texturefile = "gfx/interface/technologies/USA_fighter1_cv.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/USA_early_fighter.dds"
+	}
+	
+### USA tanks ####	
+
+	SpriteType = {
+		name = "GFX_BRU_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/USA_basic_light_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRU_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/USA_imp_light_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/USA_adv_light_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/USA_basic_main_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/USA_imp_main_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/USA_adv_main_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/USA_main_battle_tank.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_BRU_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/USA_basic_heavy_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/USA_imp_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/USA_adv_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRU_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/USA_superheavy_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRU_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/USA_motorized_equipment_1.dds"
+	}
+
 ##BURDUR##
 	
+	SpriteType = { 
+		name = "GFX_focus_porcay_burdur"
+		texturefile = "gfx/interface/goals/focus_porcay_burdur.dds"
+	}
 	SpriteType = { 
 		name = "focus_porcay_burdur"
 		texturefile = "gfx/interface/goals/focus_porcay_burdur.dds"
@@ -67,6 +371,22 @@ spriteTypes = {
 	SpriteType = { 
 		name = "focus_porcay_yol_ii"
 		texturefile = "gfx/interface/goals/focus_porcay_yol_ii.dds"
+	}
+	SpriteType = { 
+		name = "GFX_bru_ekonomi"
+		texturefile = "gfx/interface/goals/bru_ekonomi.dds"
+	}
+	SpriteType = { 
+		name = "GFX_bru_gemi"
+		texturefile = "gfx/interface/goals/bru_gemi.dds"
+	}
+	SpriteType = { 
+		name = "GFX_bru_hava"
+		texturefile = "gfx/interface/goals/bru_hava.dds"
+	}
+	SpriteType = { 
+		name = "GFX_bru_ordu"
+		texturefile = "gfx/interface/goals/bru_ordu.dds"
 	}
 	
 	

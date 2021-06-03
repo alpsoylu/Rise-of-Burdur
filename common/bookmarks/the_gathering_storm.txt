@@ -528,15 +528,15 @@ bookmarks = {
 		
 		"BRU"={
 			minor = yes
-			history = "1930’lu yılların başında Erkang Porçay Burdur şehrinde bağımsızlık hareketini başlattı.Gizlilikle bağımsızlık propagandası yapıldı ve halk yanlarına çekildi.Bir direniş ordusu kuruldu ve askere alım başladı.Tüm bunlar Türkiye Cumhuriyeti’nden gizli bir şekilde yapılıyordu.1933 yılında Başkomutan seçilen Erkang’ın ordusu 80.000 kişiye ulaştı.Halk artık askeri bir direnişe hazırdı.Erkang’ın emri ile operasyon başladı.İlk olarak Burdur’daki önemli binaları ele geçiren askerler daha sonrasında komşu illere ilerlemeye başladı.Bu olaylar yaşanırken Doğu’da Kürt isyanları başladı.Erkang durdurulamayan Kürt isyanına destek vermesi için bağımsızlık istedi.Bu da kabul edilince Erkang Kürt isyanını ordusu ile bastırdı.9 Şubat 1933 yılında Burdur İmparatorluğu ilan edildi.Artık yıllardır uyuyan Burdur İmparatorluğu uyanmıştı.3 yıl boyunca Erkang ülkesini askeri ve ekonomik olarak geliştirdi."
+			history = "BRU_1936_BOOKMARK"
 			ideology = democratic
 			ideas = {
 				
 			}
 			focuses = {
 				dreams_of_a_greater_burdur
-				BRU_parcali_ay_hanedani
-				BRU_burduri_nationalism
+				BRU_the_night_of_the_long_bans
+				BRU_establish_burdurban
 			}
 		}
 		

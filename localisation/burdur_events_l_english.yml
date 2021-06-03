@@ -3,3 +3,24 @@
  burdur_porcay.1.b:0 "Burduri Milliyetçilerine destek ver"
  burdur_porcay.1.t:0 "Burdur Cumhuriyeti 2.Seçimleri"
  burdur_porcay.1.desc:0 "1936 Yılında Burdur Cumhuriyeti'nin 2.seçimleri oluyor.Acaba büyüme hevesiyle yanıp tutuşan halk,imparatorluğu savunan §OParçalı Ay Partisi'ni §Wmi yoksa §OBurdur Milliyetçilerini mi seçecek?"
+ 
+ burdur_porcay.3.a:0 "Accept it"
+ burdur_porcay.3.b:0 "Reject it"
+ burdur_porcay.3.t:0 "[BRU.GetName] offers a deal"
+ burdur_porcay.3.desc:0 "[BRU.GetName] wants our middle eastern territories in exchange of Burduri Investors."
+ 
+ burdur_porcay.4.a:0 "Accept it"
+ burdur_porcay.4.b:0 "Reject it"
+ burdur_porcay.4.t:0 "[BRU.GetName] offers a deal"
+ burdur_porcay.4.desc:0 "[BRU.GetName] wants our Syrian and Lebanese territories in exchange of Burduri Investors."
+ 
+ burdur_porcay.5.a:0 "Accept it"
+ burdur_porcay.5.b:0 "Reject it"
+ burdur_porcay.5.t:0 "[BRU.GetName] sends us an ultimatom!"
+ burdur_porcay.5.desc:0 "[BRU.GetName] demands our islands in the Agean."
+ 
+ burdur_porcay.7.a:0 "Accept it"
+ burdur_porcay.7.b:0 "Reject it"
+ burdur_porcay.7.t:0 "[BRU.GetName] wants the control of Izmir!"
+ burdur_porcay.7.desc:0 "[BRU.GetName] demands the control of our important state Izmir!"
+ 

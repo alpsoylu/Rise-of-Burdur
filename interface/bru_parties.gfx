@@ -1,0 +1,23 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ideology_BRU_neutrality_group"
+		texturefile = "gfx/interface/party_logos/BRU_parcay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_BRU_fascism_group"
+		texturefile = "gfx/interface/party_logos/BRU_fascism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_BRU_communism_group"
+		texturefile = "gfx/interface/party_logos/BRU_socialist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_BRU_democratic_group"
+		texturefile = "gfx/interface/party_logos/BRU_demokrat.dds"
+	}
+	
+}
