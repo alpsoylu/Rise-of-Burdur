@@ -1,6 +1,6 @@
 state={
 	id=809
-	name="STATE_809" #Aydın
+	name="Aydın" #Aydın
 
 	history={
 		owner = BRU

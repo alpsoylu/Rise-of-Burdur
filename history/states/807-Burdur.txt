@@ -1,6 +1,6 @@
 state={
 	id=807
-	name="STATE_807" #Burdur
+	name="Burdur" #Burdur
 
 	history={
 		owner = BRU

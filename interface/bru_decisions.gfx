@@ -1,0 +1,10 @@
+spriteTypes = {	
+
+
+spriteType = {
+		name = "GFX_burdur_bes_yıllık_plan_pic"
+		texturefile = "gfx/interface/decisions/GFX_burdur_bes_yıllık_plan_pic.dds"
+	}
+	
+	
+	}

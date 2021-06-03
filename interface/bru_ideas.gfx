@@ -1,0 +1,167 @@
+spriteTypes = {	
+
+##########
+	##Porçay##
+	##########
+	
+	
+	spriteType = { 
+		name = "GFX_idea_BRU_burdurland_i"
+		texturefile = "gfx/interface/ideas/bru_burdurland_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_burdurland_ii"
+		texturefile = "gfx/interface/ideas/bru_burdurland_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_burdurban"
+		texturefile = "gfx/interface/ideas/bru_burdurland_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_burdurland_positive"
+		texturefile = "gfx/interface/ideas/bru_burdurland_icon.dds"
+	}
+	spriteType = { 
+		name = "bru_council"
+		texturefile = "gfx/interface/ideas/bru_council_icon.dds"
+	}
+	spriteType = { 
+		name = "bru_contact_italia_icon"
+		texturefile = "gfx/interface/ideas/bru_contact_italy_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_bru_long_bans"
+		texturefile = "gfx/interface/ideas/idea_bru_long_bans.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_bru_burduri"
+		texturefile = "gfx/interface/ideas/bru_burduri_icon.dds"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	spriteType = { 
+		name = "GFX_idea_BRU_krallık_etki_yok"
+		texturefile = "gfx/interface/ideas/etki/bru_krallık_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_krallık_etki_az"
+		texturefile = "gfx/interface/ideas/etki/bru_krallık_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_krallık_etki_orta"
+		texturefile = "gfx/interface/ideas/etki/bru_krallık_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_krallık_etki_cok"
+		texturefile = "gfx/interface/ideas/etki/bru_krallık_icon.dds"
+	}
+	
+	
+	spriteType = { 
+		name = "GFX_idea_BRU_fasist_etki_yok"
+		texturefile = "gfx/interface/ideas/etki/bru_fasist_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_fasist_etki_az"
+		texturefile = "gfx/interface/ideas/etki/bru_fasist_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_fasist_etki_orta"
+		texturefile = "gfx/interface/ideas/etki/bru_fasist_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_fasist_etki_cok"
+		texturefile = "gfx/interface/ideas/etki/bru_fasist_icon.dds"
+	}
+	
+	
+	
+	
+	spriteType = { 
+		name = "GFX_idea_BRU_nazi_etki_yok"
+		texturefile = "gfx/interface/ideas/etki/bru_nazi_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_nazi_etki_az"
+		texturefile = "gfx/interface/ideas/etki/bru_nazi_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_nazi_etki_orta"
+		texturefile = "gfx/interface/ideas/etki/bru_nazi_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_nazi_etki_cok"
+		texturefile = "gfx/interface/ideas/etki/bru_nazi_icon.dds"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	spriteType = { 
+		name = "GFX_idea_BRU_sos_etki_yok"
+		texturefile = "gfx/interface/ideas/etki/bru_sos_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_sos_etki_az"
+		texturefile = "gfx/interface/ideas/etki/bru_sos_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_sos_etki_orta"
+		texturefile = "gfx/interface/ideas/etki/bru_sos_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_sos_etki_cok"
+		texturefile = "gfx/interface/ideas/etki/bru_sos_icon.dds"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	spriteType = { 
+		name = "GFX_idea_BRU_feminist_etki_yok"
+		texturefile = "gfx/interface/ideas/etki/bru_feminist_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_feminist_etki_az"
+		texturefile = "gfx/interface/ideas/etki/bru_feminist_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_feminist_etki_orta"
+		texturefile = "gfx/interface/ideas/etki/bru_feminist_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_BRU_feminist_etki_cok"
+		texturefile = "gfx/interface/ideas/etki/bru_feminist_icon.dds"
+	}
+	
+	
+	spriteType = { 
+		name = "GFX_idea_bru_burduri_parliement"
+		texturefile = "gfx/interface/ideas/bru_parliement.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_idea_bru_savunma_ordusu"
+		texturefile = "gfx/interface/ideas/bru_savunma_ordusu.dds"
+	}
+	
+}

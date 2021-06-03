@@ -1,0 +1,80 @@
+spriteTypes = {	
+
+
+
+##BURDUR##
+	
+	SpriteType = { 
+		name = "focus_porcay_burdur"
+		texturefile = "gfx/interface/goals/focus_porcay_burdur.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_dreams_burdur"
+		texturefile = "gfx/interface/goals/focus_porcay_burdur.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_porcay_baba_sutu"
+		texturefile = "gfx/interface/goals/focus_porcay_baba_sutu.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_porcay_milliyetcilik"
+		texturefile = "gfx/interface/goals/focus_porcay_milliyetcilik.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_fascism"
+		texturefile = "gfx/interface/goals/focus_porcay_fascism.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_nazism"
+		texturefile = "gfx/interface/goals/focus_porcay_nazism.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_imparator"
+		texturefile = "gfx/interface/goals/focus_porcay_imparator.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_burduri"
+		texturefile = "gfx/interface/goals/focus_porcay_burduri.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_uatang"
+		texturefile = "gfx/interface/goals/focus_porcay_uatang.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_gehass"
+		texturefile = "gfx/interface/goals/focus_porcay_gehass.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_thanos"
+		texturefile = "gfx/interface/goals/focus_porcay_thanos.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_hitler"
+		texturefile = "gfx/interface/goals/focus_porcay_hitler.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_long_bans"
+		texturefile = "gfx/interface/goals/focus_porcay_long_bans.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_expansionism"
+		texturefile = "gfx/interface/goals/focus_porcay_expansionism.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_yol_i"
+		texturefile = "gfx/interface/goals/focus_porcay_yol_i.dds"
+	}
+	SpriteType = { 
+		name = "focus_porcay_yol_ii"
+		texturefile = "gfx/interface/goals/focus_porcay_yol_ii.dds"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

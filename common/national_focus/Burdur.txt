@@ -75,7 +75,7 @@ completion_reward {
 			focus = BRU_crown_erkang
 		}
 		completion_reward = {
-		add_ideas = BRU_burduri_kulturu_focus
+		add_ideas = BRU_burduri_kulturu
 		}
 		x = 6
 		y = 3
@@ -404,7 +404,7 @@ create_country_leader = {
 	}
 	
 	focus = {
-		id = BRU_onikiadayı_talep_et
+		id = BRU_onikiadayı_iste
 		icon = GFX_goal_unknown
 		cost = 5,00
 		prerequisite = {
@@ -423,7 +423,7 @@ create_country_leader = {
 		icon = GFX_goal_unknown
 		cost = 2,00
 		prerequisite = {
-			focus = BRU_onikiadayı_talep_et
+			focus = BRU_onikiadayı_iste
 		}
 		completion_reward = {
 		add_state_core = 164
@@ -789,6 +789,7 @@ create_country_leader = {
 		cost = 5,00
 		x = 30
 		y = 0
+		allow_branch = {always = no}
 completion_reward {
 		}
 	}
@@ -1416,7 +1417,7 @@ create_unit = {
 		id = BRU_mimar_erkani_burdur_mimari_ilan_et
 		icon = GFX_goal_dreams_burdur
 		cost = 5,00
-		x = 45
+		x = 25
 		y = 0
 completion_reward {
 807 {
@@ -1528,7 +1529,6 @@ unlock_decision_tooltip = BRU_burdur_askeri_sanayi_sirketini_kur
 		}
 completion_reward {
 add_ideas = BRU_gelecegin_sehri
-remove_ideas = BRU_gelecegin_sehri
 		}
 	}
 	

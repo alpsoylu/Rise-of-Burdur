@@ -1,6 +1,6 @@
 state={
 	id=808
-	name="STATE_808" #Muğla
+	name="Muğla" #Muğla
 
 	history={
 		owner = BRU
