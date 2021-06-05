@@ -135,10 +135,9 @@ completion_reward {
 			focus = BRU_ang_icin
 		}
 		completion_reward = {
-    add_ideas = BRU_burdurland_ii
-		if = {
-		limit = { has_idea = BRU_burdurland_i }
-		remove_ideas = BRU_burdurland_i
+		swap_ideas = {
+		add_idea = BRU_burdurland_ii
+		remove_idea = BRU_burdurland_i
 		}
 		}
 		x = 5
@@ -154,10 +153,9 @@ completion_reward {
 			focus = BRU_establish_martial_law_in_burdurland_monarchy
 		}
 		completion_reward = {
-    add_ideas = BRU_burdurban
-		if = {
-		limit = { has_idea = BRU_burdurland_ii }
-		remove_ideas = BRU_burdurland_ii
+		swap_ideas = {
+		add_idea = BRU_burdurban
+		remove_idea = BRU_burdurland_ii
 		}
 		}
 		x = 5
@@ -173,10 +171,9 @@ completion_reward {
 			focus = BRU_establish_burdurban_monarchy
 		}
 		completion_reward = {
-    add_ideas = BRU_burdurland_positive
-		if = {
-		limit = { has_idea = BRU_burdurban }
-		remove_ideas = BRU_burdurban
+		swap_ideas = {
+		add_idea = BRU_burdurland_positive
+		remove_idea = BRU_burdurban
 		}
 		}
 		x = 5
@@ -219,11 +216,6 @@ completion_reward {
 		}
 		completion_reward = {
 		retire_ideology_leader = fascism
-		set_party_name = { 
-    ideology = fascism 
-    long_name = BRU_fascism_party
-    name = BRU_fascism_party_long
-}
 
 create_country_leader = {
 	name = "Erkan Porçay"
@@ -327,10 +319,9 @@ create_country_leader = {
 			focus = BRU_establish_martial_law_in_burdurland
 		}
 		completion_reward = {
-    add_ideas = BRU_burdurban
-		if = {
-		limit = { has_idea = BRU_burdurland_ii }
-		remove_ideas = BRU_burdurland_ii
+		swap_ideas = {
+		add_idea = BRU_burdurban
+		remove_idea = BRU_burdurland_ii
 		}
 		}
 		x = 16
@@ -346,14 +337,13 @@ create_country_leader = {
 			focus = BRU_establish_burdurban
 		}
 		completion_reward = {
-    add_ideas = BRU_burdurland_positive
-		if = {
-		limit = { has_idea = BRU_burdurban }
-		remove_ideas = BRU_burdurban
+		swap_ideas = {
+		add_idea = BRU_burdurland_positive
+		remove_idea = BRU_burdurban
 		}
 		}
-		x = 18
-		y = 7
+		x = 16
+		y = 6
 
 	}
 	focus = {
@@ -421,28 +411,17 @@ create_country_leader = {
 
 	}
 	focus = {
-		id = BRU_balkanlardan_orta_doguya
-		icon = GFX_goal_dreams_burdur
-		cost = 10,00
-		prerequisite = {
-			focus = BRU_burduri_expansionism_focus
-		}
-		x = 11
-		y = 7
-
-	}
-	focus = {
 		id = BRU_izmir_refarendumu
 		icon = GFX_focus_generic_treaty
 		cost = 10,00
 		prerequisite = {
-			focus = BRU_balkanlardan_orta_doguya
+			focus = BRU_burduri_expansionism_focus
 		}
 		completion_reward = {
 		TUR = { country_event = { id = burdur_porcay.7 } }
 		}
 		x = 11
-		y = 8
+		y = 7
 
 	}
 	focus = {
@@ -450,13 +429,13 @@ create_country_leader = {
 		icon = GFX_focus_generic_attack_greece
 		cost = 10,00
 		prerequisite = {
-			focus = BRU_balkanlardan_orta_doguya
+			focus = BRU_burduri_expansionism_focus
 		}
 		completion_reward = {
 		GRE = { country_event = { id = burdur_porcay.5 } }
 		}
 		x = 15
-		y = 8
+		y = 7
 
 	}
 	
@@ -475,7 +454,7 @@ create_country_leader = {
 		}
 		}
 		x = 18
-		y = 9
+		y = 8
 
 	}
 	
@@ -526,7 +505,7 @@ create_country_leader = {
 }
 		}
 		x = 13
-		y = 9
+		y = 8
 
 	}
 	focus = {
@@ -549,7 +528,7 @@ create_country_leader = {
 }
 		}
 		x = 13
-		y = 10
+		y = 9
 
 	}
 	focus = {
@@ -557,13 +536,13 @@ create_country_leader = {
 		icon = GFX_focus_chi_reach_out_to_france
 		cost = 10,00
 		prerequisite = {
-			focus = BRU_balkanlardan_orta_doguya
+			focus = BRU_burduri_expansionism_focus
 		}
 		completion_reward = {
 		FRA = { country_event = { id = burdur_porcay.4 } }
 		}
 		x = 7
-		y = 8
+		y = 7
 
 	}
 	focus = {
@@ -577,7 +556,7 @@ create_country_leader = {
 	    ENG = { country_event = { id = burdur_porcay.3 } }
 		}
 		x = 7
-		y = 9
+		y = 8
 
 	}
 	focus = {
@@ -592,7 +571,7 @@ create_country_leader = {
 		add_state_core = 339
 		}
 		x = 11
-		y = 9
+		y = 8
 
 	}
 	focus = {
@@ -607,7 +586,7 @@ create_country_leader = {
 		add_state_core = 187
 		}
 		x = 15
-		y = 9
+		y = 8
 
 	}
 	focus = {
@@ -624,7 +603,7 @@ create_country_leader = {
 		}
 		}
 		x = 15
-		y = 10
+		y = 9
 
 	}
 	focus = {
@@ -636,7 +615,7 @@ create_country_leader = {
 		}
 		allow_branch = {always = no}
 		x = 11
-		y = 10
+		y = 9
 
 	}
 	focus = {
@@ -653,7 +632,7 @@ create_country_leader = {
 		}
 		}
 		x = 6
-		y = 10
+		y = 9
 
 	}
 	focus = {
@@ -670,7 +649,7 @@ create_country_leader = {
 		}
 		}
 		x = 8
-		y = 10
+		y = 9
 
 	}
 	focus = {
@@ -690,7 +669,7 @@ create_country_leader = {
 		}
 		}
 		x = 13
-		y = 11
+		y = 10
 
 	}
 	focus = {
@@ -707,7 +686,7 @@ create_country_leader = {
 		}
 		}
 		x = 13
-		y = 12
+		y = 11
 
 	}
 	focus = {
@@ -727,7 +706,7 @@ create_country_leader = {
 		}
 		}
 		x = 7
-		y = 11
+		y = 10
 
 	}
 	focus = {
@@ -744,7 +723,7 @@ create_country_leader = {
 		}
 		}
 		x = 7
-		y = 12
+		y = 11
 
 	}
 	focus = {
@@ -762,7 +741,7 @@ create_country_leader = {
 		add_stability = 0.15
 		}
 		x = 10
-		y = 13
+		y = 12
 
 	}
 	
