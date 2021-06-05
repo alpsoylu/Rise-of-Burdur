@@ -3,4 +3,4 @@ tags={
 	"Alternative History"
 }
 name="Rise of Burdur"
-supported_version="1.10.5"
+supported_version="1.10.7"
